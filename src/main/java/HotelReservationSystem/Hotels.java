@@ -2,9 +2,16 @@ package HotelReservationSystem;
 
 public class Hotels {
 	private String hotelName;
-	public int weekDay;
-	public int weekEnd;
+	private int weekDay;
+	private int weekEnd;
+	private int rating;
 	
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
 	public String getHotelName() {
 		return hotelName;
 	}
